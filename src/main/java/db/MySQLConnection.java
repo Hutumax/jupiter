@@ -36,6 +36,7 @@ public class MySQLConnection {
 		}
 	}
 	
+	// set favorite items
 	public void setFavoriteItems(String userId, Item item) {
 		if (conn == null) {
 			System.err.println("DB connection failed");
